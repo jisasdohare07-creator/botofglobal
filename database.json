@@ -1,0 +1,82 @@
+{
+  "settings": {
+    "botName": "Zabir Bot",
+    "ownerName": "Boss",
+    "ownerNumber": "8200210397",
+    "prefix": ".",
+    "targetGroupName": "GlobalUnido loading requirements",
+    "targetGroups": [
+      "GlobalUnido loading requirements",
+      "GADI WALA TRANSPORT SERVICE 🚚🛳️🚆✈️🚛",
+      "Shukla Logistic Chhattisgarh 📌",
+      "Shukla logistic Vapi 📌",
+      "📌Shukla Logistic Maharashtra",
+      "Shukla logistic Madhya Pradesh 📌"
+    ],
+    "sourceChannels": [
+      "Transport Parivar Corporation",
+      "BANNA TRANSPORT & CONSTRUCTION",
+      "shree shyam transport 🙏🏻🙏🏻",
+      "National Freight Transport (NFS)",
+      "𝐹𝑁𝐷𝐺 𝑊𝑅𝑁𝐺𝐻𝐹𝑊𝑅𝑊",
+      "ats transport service",
+      "Sri Velavan Transport 🚚",
+      "Mama Sarkar Group",
+      "𝖲𝗈𝗇𝖺𝗅𝗂 𝖳𝗋𝖺𝗇𝗌𝗉𝗈𝑟𝗍,𝖲𝖾𝗋𝗏𝗂𝖼𝖾 𝖱𝖺𝗇𝗃𝖺𝗇𝗀𝖺𝗈𝗇,𝖬𝗂𝖽𝖼",
+      "KK SAHA TR",
+      "Top Logistics All India Truck & Container Load",
+      "GADI WALA TRANSPORT SERVICE",
+      "Ashirwad Transport Service",
+      "Mayur transport and tempo services latur",
+      "Traffic Thane Mumbai Zk",
+      "Chavan Transport Agency ( CTA INDIA LOAD ) CTA Transport & Logistics",
+      "N.K. TRANSPORT SERVICE CO. OF INDIA",
+      "ALL INDIA TRUCK GROUP",
+      "R. K. Transport Latur",
+      "M. S. LOGISTICS SOLUTION",
+      "All India Gadi Group",
+      "All India Group",
+      "T.R. TRANSPORT CORPORATION OF INDIA",
+      "GADI WALA TRANSPORT GROUP",
+      "ALL INDIA CARGO AND LOADS",
+      "DELHI TO MUMBAI TRANSPORT SERVICE",
+      "Gujarat Maharashtra Transport Service",
+      "South Cargo Movement Hub",
+      "NCR Logistics & Container Group",
+      "All India Load & Truck Solutions",
+      "Logistics Parivar India",
+      "Cargo Movement Corporation India"
+    ],
+    "aiModeEnabled": true,
+    "geminiApiKey": "AIzaSyAnJbvUVXsh-6rRYAi63eTVl-v6mBBjvyI",
+    "ownerEmail": "supportglobalunido@gmail.com",
+    "ownerCompany": "GLOBALUNIDO",
+    "excelPath": "C:\\\\Users\\\\Admin\\\\Desktop\\\\WhatsApp_Loads.xlsx",
+    "instagramEnabled": true,
+    "telegramEnabled": false,
+    "telegramToken": "",
+    "telegramChannelId": "",
+    "targetChannel": "Globalunido.in"
+  },
+  "autoReplies": [
+    {
+      "trigger": "hi",
+      "reply": "Hello Boss! How can I help you today? 🚚✨"
+    },
+    {
+      "trigger": "hello",
+      "reply": "Hello Boss! Zabir AI Bot is fully operational. How can I assist you?"
+    },
+    {
+      "trigger": "help",
+      "reply": "You can use .menu in WhatsApp chat to view all my options! Or manage me via the Web Dashboard."
+    }
+  ],
+  "stats": {
+    "messagesReceived": 4845,
+    "messagesSent": 4199,
+    "commandsExecuted": 3
+  },
+  "todoList": [],
+  "reminders": []
+}
