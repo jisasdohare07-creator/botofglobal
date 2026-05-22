@@ -135,6 +135,17 @@ function startServer(sharedContext, botEngine) {
         });
     });
 
+    // QR Code HTTP endpoint — so dashboard can poll without WebSocket
+    app.get('/api/qr', (req, res) => {
+        if (sharedContext.latestQRCode) {
+            res.json({ qr: sharedContext.latestQRCode, status: 'pending' });
+        } else if (sharedContext.currentBotState === 'ready') {
+            res.json({ qr: null, status: 'connected' });
+        } else {
+            res.json({ qr: null, status: 'initializing' });
+        }
+    });
+
     app.post('/api/settings', (req, res) => {
         const { botName, ownerName, ownerNumber, prefix, aiModeEnabled, geminiApiKey, targetGroups, sourceChannels, ownerEmail, ownerCompany, excelPath, instagramEnabled, telegramEnabled, telegramToken, telegramChannelId } = req.body;
         
