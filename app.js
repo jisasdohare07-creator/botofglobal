@@ -3,7 +3,7 @@
 // E.g., const BACKEND_URL = "https://your-space-name.hf.space";
 // If left empty, it assumes backend is on the same domain.
 // ============================================================
-const BACKEND_URL = "";
+const BACKEND_URL = "https://jisas2608-botofglob.hf.space";
 const API_BASE = BACKEND_URL ? BACKEND_URL : "";
 
 // ============================================================
